@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Provision with nothing",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\provisionComposer.js",
+            "args": [
+                "--subscriptionId=<subId>",
+                "--name=<name>",
+                "--location=westeurope",
+                "--appPassword=<appPassword>",
+                "--environment=dev",
+                "--createLuisAuthoringResource=false",
+                "--createCosmosDb=false",
+                "--createStorage=false",
+                "--createAppInsights=false"
+            ]
+        }
+    ]
+}

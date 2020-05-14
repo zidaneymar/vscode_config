@@ -61,3 +61,10 @@ Please refer to this doc:
 1. Create an Echo bot and Start
 2. Open Emulator on your local desktop and config the endpoint like this: http:/your-vm-ip:3979/api/messages
 3. Chat with the bot
+
+# Issues
+1. If meet with 'mkdir no permission error', try to execute:
+    ```
+    chmod 777 -R .
+    ```
+    for your whole Composer folder
