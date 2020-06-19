@@ -19,7 +19,7 @@
                 "--createCosmosDb=false",
                 "--createStorage=false",
                 "--createAppInsights=true",
-                "--appId=f63fd0dd-ebef-475a-a754-fff514d7bcb1",
+                "--appId=f63fd0dd-ebef-475a-a754-fff514d7bcb1"
             ]
         }
     ]
