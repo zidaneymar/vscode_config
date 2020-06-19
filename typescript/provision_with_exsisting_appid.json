@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Provision Under Composer Folder",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\plugins\\samples\\assets\\shared\\scripts\\provisionComposer.js",
+            "args": [
+                "--subscriptionId=",
+                "--name=ProvisionTestOn0617",
+                "--location=westus",
+                "--appPassword=",
+                "--environment=dev",
+                "--createLuisAuthoringResource=false",
+                "--createCosmosDb=false",
+                "--createStorage=false",
+                "--createAppInsights=true",
+                "--appId=f63fd0dd-ebef-475a-a754-fff514d7bcb1",
+            ]
+        }
+    ]
+}
